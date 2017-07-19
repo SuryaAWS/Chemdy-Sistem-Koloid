@@ -1,0 +1,35 @@
+<div class="content-block-title">What about simple navigation?</div>
+              <div class="list-block">
+                <ul>
+                  <li><a href="kompetensi.html" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner"> 
+                          <div class="item-title">Kompetensi</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="materi.html" class="item-link">
+                      <div class="item-content"> 
+                        <div class="item-inner">
+                          <div class="item-title">Materi</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="quiz.html" class="item-link">
+                      <div class="item-content"> 
+                        <div class="item-inner">
+                          <div class="item-title">Quiz Interaktif</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="petunjuk.html" class="item-link">
+                      <div class="item-content"> 
+                        <div class="item-inner">
+                          <div class="item-title">Petunjuk</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="tentang.html" class="item-link">
+                      <div class="item-content"> 
+                        <div class="item-inner">
+                          <div class="item-title">Tentang</div>
+                        </div>
+                      </div></a></li>
+                </ul>
+              </div>

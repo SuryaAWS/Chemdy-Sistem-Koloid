@@ -1,0 +1,25 @@
+
+
+          <div class="toolbar tabbar tabbar-labels">
+    <div class="toolbar-inner">
+        <a href="index.html" class="tab-link active">
+            <i class="f7-icons">home_fill</i>
+            <span class="tabbar-label">Label 1</span>
+        </a>
+        <a href="kompetensi.html" class="tab-link">
+            <i class="f7-icons">favorites_fill</i>
+            <span class="tabbar-label">Label 2</span>
+        </a>
+        <a href="materi.html" class="tab-link">
+            <i class="f7-icons">layers_fill</i>
+            <span class="tabbar-label">Label 3</span>
+        </a>
+        <a href="quiz.html" class="tab-link">
+            <i class="f7-icons">compose_fill</i>
+            <span class="tabbar-label">Label 4</span>
+        </a>
+    </div>
+</div>
+
+        <div class="toolbar-inner"><a href="index.html" class="item-link"> <i class="f7-icons">home</i><span class="tabbar-label">Beranda</span></a><a href="kompetensi.html" class="item-link"><i class="f7-icons">favorites</i><span class="tabbar-label">Inbox</span></a><a href="materi.html" class="item-link"> <i class="f7-icons">layers</i><span class="tabbar-label">Upload</span></a><a href="quiz.html" class="item-link"> <i class="f7-icons">compose</i><span class="tabbar-label">Photos</span></a></div>
+      </div>

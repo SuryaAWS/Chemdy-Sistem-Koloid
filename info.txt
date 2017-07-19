@@ -1,0 +1,103 @@
+Node version: v6.11.0
+
+Cordova version: 7.0.1
+
+Config.xml file: 
+
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="id.my.chemdy" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Chemdy Koloid</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <engine name="android" spec="^6.2.3" />
+    <plugin name="cordova-plugin-backbutton" spec="^0.3.0" />
+    <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
+</widget>
+
+
+Plugins: 
+
+cordova-plugin-backbutton,cordova-plugin-splashscreen,cordova-plugin-whitelist
+
+Android platform:
+
+Available Android targets:
+----------
+id: 1 or "android-15"
+     Name: Android 4.0.3
+     Type: Platform
+     API level: 15
+     Revision: 5
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800
+ Tag/ABIs : google_apis/armeabi-v7a, google_apis/x86
+----------
+id: 2 or "android-16"
+     Name: Android 4.1.2
+     Type: Platform
+     API level: 16
+     Revision: 5
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : default/armeabi-v7a, default/mips, default/x86, google_apis/armeabi-v7a, google_apis/x86
+----------
+id: 3 or "android-25"
+     Name: Android 7.1.1
+     Type: Platform
+     API level: 25
+     Revision: 3
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : google_apis/arm64-v8a, google_apis/armeabi-v7a, google_apis/x86, google_apis/x86_64
+----------
+id: 4 or "Google Inc.:Google APIs:15"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 3
+     Description: Android + Google APIs
+     Based on Android 4.0.3 (API level 15)
+     Libraries:
+      * com.android.future.usb.accessory (usb.jar)
+          API for USB Accessories
+      * com.google.android.media.effects (effects.jar)
+          Collection of video effects
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800
+ Tag/ABIs : default/armeabi-v7a
+----------
+id: 5 or "Google Inc.:Google APIs:16"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 4
+     Description: Android + Google APIs
+     Based on Android 4.1.2 (API level 16)
+     Libraries:
+      * com.android.future.usb.accessory (usb.jar)
+          API for USB Accessories
+      * com.google.android.media.effects (effects.jar)
+          Collection of video effects
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : default/armeabi-v7a
+

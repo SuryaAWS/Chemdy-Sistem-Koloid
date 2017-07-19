@@ -1,0 +1,64 @@
+/* Style untuk grid view */
+div[class*="col-"] {
+  background: #fff;
+  text-align: center;
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+.row {
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right:15px;
+} 
+
+/* Style untuk picture */
+  .facebook-card .card-header {
+    display: block;
+    padding: 10px;
+  }
+  .facebook-card .facebook-avatar {
+    float: left;
+  }
+  .facebook-card .facebook-name {
+    margin-left: 44px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .facebook-card .facebook-date {
+    margin-left: 44px;
+    font-size: 13px;
+    color: #8e8e93;
+  }
+  .facebook-card .card-footer {
+    background: #fafafa;
+  }
+  .facebook-card .card-footer a {
+    color: #81848b;
+    font-weight: 500;
+  }
+  .facebook-card .card-content img {
+    display: block;
+  }
+  .facebook-card .card-content-inner {
+    padding: 15px 10px;
+  }  
+
+/* Style untuk quiz */
+.wrapper {
+width: 100%;
+}
+.container {
+height: 100%;
+width: 100%;
+padding-bottom: 120%;
+overflow: hidden;
+position: relative;
+}
+.container iframe {
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+position: absolute;
+}

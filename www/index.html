@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Chemdy-Sistem Koloid</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="css/framework7-icons.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block">
+		<p><img src="img/flask-7.png" width="50%"></p>
+        <p><b>MENU NAVIGASI</b></p>
+        <p><a href="index.html" class="close-panel"><i class="f7-icons">home_fill</i> Beranda</a></p>
+        <p><a href="kompetensi.html" class="close-panel"><i class="f7-icons">favorites_fill</i> Kompetensi</a></p>
+        <p><a href="materi.html" class="close-panel"><i class="f7-icons">layers_fill</i> Materi</a></p>
+        <p><a href="quiz.html" class="close-panel"><i class="f7-icons">compose_fill</i> Quiz Interaktif</a></p>
+        <p><a href="petunjuk.html" class="close-panel"><i class="f7-icons">help_fill</i> Petunjuk</a></p>
+        <p><a href="tentang.html" class="close-panel"><i class="f7-icons">info_fill</i> Tentang</a></p>
+      </div>
+    </div>
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner">
+            <!-- We have home navbar without left link-->
+            <div class="center sliding">Chemdy-Sistem Koloid</div>
+            <div class="right">
+              <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content-->
+            <div class="page-content">
+              <div class="content-block-title"></div>
+              <div class="content-block">
+				<!-- gambar belum jadi -->
+				<img src="img/flask-7.png" width="50%">
+              
+                <b><div class="row">
+                  <div class="col-50"><a href="#" class="item-link"><i class="f7-icons">home_fill</i><div class="item-title">Beranda</div></a></div>
+                  <div class="col-50"><a href="kompetensi.html" class="item-link"><i class="f7-icons">favorites_fill</i><div class="item-title">Kompetensi</div></a></div>
+                </div></b>
+                <b><div class="row">
+                  <div class="col-50"><a href="materi.html" class="item-link"><i class="f7-icons">layers_fill</i><div class="item-title">Materi</div></a></div>
+                  <div class="col-50"><a href="quiz.html" class="item-link"><i class="f7-icons">compose_fill</i><div class="item-title">Quiz Interaktif</div></a></div>
+                </div></b>
+                <b><div class="row">
+                  <div class="col-50"><a href="petunjuk.html" class="item-link"><i class="f7-icons">help_fill</i><div class="item-title">Petunjuk</div></a></div>
+                  <div class="col-50"><a href="tentang.html" class="item-link"><i class="f7-icons">info_fill</i><div class="item-title">Tentang</div></a></div>
+                </div></b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Toolbar-->
+      <div class="toolbar tabbar tabbar-labels">
+    <div class="toolbar-inner">
+        <a href="index.html" class="item-link">
+            <i class="f7-icons">home_fill</i>
+        </a>
+        <a href="kompetensi.html" class="item-link">
+            <i class="f7-icons">favorites_fill</i>
+        </a>
+        <a href="materi.html" class="item-link">
+            <i class="f7-icons">layers_fill</i>
+        </a>
+        <a href="quiz.html" class="item-link">
+            <i class="f7-icons">compose_fill</i>
+        </a>
+    </div>
+</div>
+			  
+
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
